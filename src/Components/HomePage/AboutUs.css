@@ -1,0 +1,61 @@
+.about-us {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .key-points {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  
+  .key-point {
+    text-align: center;
+    width: 23%; /* Adjust the width as needed */
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    background-color: #85d16e00; /* Light green */
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    overflow: hidden; 
+  }
+  
+  .circle h3 {
+    margin-top: 10px;
+  }
+  
+  .circle p {
+    font-size: 0.9rem;
+  }
+  
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .key-points {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .key-point {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .circle {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .circle h3 {
+      margin-top: 5px;
+      font-size: 1rem;
+    }
+  
+    .circle p {
+      font-size: 0.8rem;
+    }
+  }
+  
